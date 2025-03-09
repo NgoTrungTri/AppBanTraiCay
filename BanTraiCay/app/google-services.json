@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1089898783996",
+    "project_id": "fruitecommerce-d1aaf",
+    "storage_bucket": "fruitecommerce-d1aaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089898783996:android:09ede4aad2073aa4a22379",
+        "android_client_info": {
+          "package_name": "com.btlon.bantraicay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlA0kPNlw0OYz_wl72xoQzNRSnfvD--SA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

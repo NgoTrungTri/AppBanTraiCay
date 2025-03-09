@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ordermana"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Đơn Hàng" />
+    <item
+        android:id="@+id/categorymana"
+        android:icon="@drawable/baseline_category_24"
+        android:title="Danh Mục" />
+    <item
+        android:id="@+id/productmana"
+        android:icon="@drawable/baseline_shopping_cart_24"
+        android:title="Sản Phẩm" />
+    <item
+        android:id="@+id/customermana"
+        android:icon="@drawable/baseline_people_24"
+        android:title="Khách Hàng" />
+
+</menu>

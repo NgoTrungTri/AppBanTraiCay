@@ -1,0 +1,60 @@
+<!-- res/layout/activity_add_san_pham.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etMaSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã Sản Phẩm"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etTenSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Sản Phẩm"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etDinhLuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Định Lượng"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etHinhAnh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="URL Hình Ảnh"
+        android:inputType="textUri" />
+
+    <EditText
+        android:id="@+id/etMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô Tả"
+        android:inputType="textMultiLine" />
+
+    <Spinner
+        android:id="@+id/spinnerLoaiTraiCay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSaveSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu" />
+</LinearLayout>
